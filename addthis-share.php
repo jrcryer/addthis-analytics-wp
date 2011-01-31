@@ -25,14 +25,14 @@ Author URI: http://www.twitter.com/jrcryer
     along with this program; if not, write to the Free Software
     Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
-require_once(__DIR__.'/lib/bin/Service.class.php');
-require_once(__DIR__.'/lib/bin/Request.class.php');
-require_once(__DIR__.'/lib/bin/Authentication.class.php');
-require_once(__DIR__.'/lib/bin/Metric.class.php');
-require_once(__DIR__.'/lib/bin/Dimension.class.php');
-require_once(__DIR__.'/lib/bin/QueryParameter.class.php');
-require_once(__DIR__.'/lib/bin/Cache.interface.php');
-require_once(__DIR__.'/lib/bin/FileCache.class.php');
+require_once(__DIR__.'/addthisapi/lib/Service.class.php');
+require_once(__DIR__.'/addthisapi/lib/Request.class.php');
+require_once(__DIR__.'/addthisapi/lib/Authentication.class.php');
+require_once(__DIR__.'/addthisapi/lib/Metric.class.php');
+require_once(__DIR__.'/addthisapi/lib/Dimension.class.php');
+require_once(__DIR__.'/addthisapi/lib/QueryParameter.class.php');
+require_once(__DIR__.'/addthisapi/lib/Cache.interface.php');
+require_once(__DIR__.'/addthisapi/lib/FileCache.class.php');
 
 class AddThisAnalyticsWidget extends WP_Widget {
 
